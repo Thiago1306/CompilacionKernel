@@ -6,3 +6,41 @@
 html{
     font-size: 62.5%;
 }
+h1{
+    font-size: 2.3rem;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    box-shadow: 1px 1px 5px darkgray;
+}
+header h1{
+    margin-bottom: 10px;
+}
+header nav .main-navbar{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+.main-navbar li a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.8rem;
+}
+#item-active{
+    color: red;
+}
+.main-text{
+   text-align: center;
+}
+.main-text h2{
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.main-text p{
+    text-align: justify;
+}
