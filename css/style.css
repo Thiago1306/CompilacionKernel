@@ -15,6 +15,7 @@ header {
     height: 120px;
     justify-content: center;
     box-shadow: 1px 1px 5px darkgray;
+    min-width: 300px;
 }
 header h1{
     margin-bottom: 10px;
@@ -30,12 +31,14 @@ header nav .main-navbar{
     justify-content: center;
     padding: 5px;
     font-size: 1.8rem;
+    border-bottom: 1px solid darkgray;
 }
 #item-active{
     color: red;
 }
 .main-text{
    text-align: center;
+   min-width: 300px;
 }
 .main-text h2{
     margin-top: 10px;
@@ -43,4 +46,5 @@ header nav .main-navbar{
 }
 .main-text p{
     text-align: justify;
+    font-size: 1.2rem;
 }
