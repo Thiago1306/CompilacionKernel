@@ -39,11 +39,14 @@ header nav .main-navbar{
 .main-text{
    text-align: center;
    min-width: 300px;
+   max-width: 90%;
+    margin: 0 auto;
 }
 .main-text h2{
-    margin-top: 10px;
+    margin: 10px 0;
     font-size: 1.8rem;
 }
+
 .main-text p{
     text-align: justify;
     font-size: 1.2rem;
